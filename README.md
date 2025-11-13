@@ -1,17 +1,22 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+This is how I approached the Project : 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+sbse phle toh meine Vite project setup kiyaa, uske baad Tailwind configure ki
 
-## React Compiler
+after that humne API fetch krke saara memes ka data uthaaya or usko states m store krwaa diyaa.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+fir usk baad components banaye jo UI M show kraane th "using tailwind":
 
-## Expanding the ESLint configuration
+Navbar (app ka title aur search bar ke liye)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# meme_app
+MemeCard (jo har ek meme ko dikha rha tha)
+
+
+data ko .map() krke render krwa diyaa humare HomePage pr. jaha pr bs humne MemeCards pr loop laga diyaa or new new meme data k sath hr ek card render hogyaa.
+
+along with this humne "search " button k functionality v bnaayi h.
+
+yeh filter use krke jo "similar" results (matlab similar type ke memes) ko filter krke result dega
+
+so that's it.
